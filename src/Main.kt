@@ -84,7 +84,7 @@ fun compararNumeros(numeroAleatorio: String, numero: String): Triple<Int, Int, I
         }
     }
 
-    println(numero + numeroAleatorio + "    ${BG_GREEN}  $acierto  ${BG_YELLOW}  $coincidencia  ${BG_RED}  $fallo  ${RESET}")
+    println(numero + "    ${BG_GREEN}  $acierto  ${BG_YELLOW}  $coincidencia  ${BG_RED}  $fallo  ${RESET}")
     return Triple(acierto, coincidencia, fallo)
 }
 
